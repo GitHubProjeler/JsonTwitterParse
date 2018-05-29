@@ -12,6 +12,7 @@
 		AC454BB220BD3C53006CC184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC454BB020BD3C53006CC184 /* Main.storyboard */; };
 		AC454BB420BD3C53006CC184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC454BB320BD3C53006CC184 /* Assets.xcassets */; };
 		AC454BB720BD3C53006CC184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC454BB520BD3C53006CC184 /* LaunchScreen.storyboard */; };
+		AC454BC020BD3C91006CC184 /* TwitterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC454BBF20BD3C91006CC184 /* TwitterModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AC454BB320BD3C53006CC184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC454BB620BD3C53006CC184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC454BB820BD3C53006CC184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC454BBF20BD3C91006CC184 /* TwitterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		AC454BAB20BD3C53006CC184 /* JsonTwitterParse */ = {
 			isa = PBXGroup;
 			children = (
+				AC454BBE20BD3C6C006CC184 /* TwitterModel */,
 				AC454BAC20BD3C53006CC184 /* AppDelegate.swift */,
 				AC454BAE20BD3C53006CC184 /* ViewController.swift */,
 				AC454BB020BD3C53006CC184 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				AC454BB820BD3C53006CC184 /* Info.plist */,
 			);
 			path = JsonTwitterParse;
+			sourceTree = "<group>";
+		};
+		AC454BBE20BD3C6C006CC184 /* TwitterModel */ = {
+			isa = PBXGroup;
+			children = (
+				AC454BBF20BD3C91006CC184 /* TwitterModel.swift */,
+			);
+			path = TwitterModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC454BC020BD3C91006CC184 /* TwitterModel.swift in Sources */,
 				AC454BAF20BD3C53006CC184 /* ViewController.swift in Sources */,
 				AC454BAD20BD3C53006CC184 /* AppDelegate.swift in Sources */,
 			);
